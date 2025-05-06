@@ -20,11 +20,11 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void signup(View view){
-        startActivity(new Intent(LoginActivity.this,MainActivity.class));
+        startActivity(new Intent(LoginActivity.this,RegistrationActivity.class));
     }
 
     public void signin(View view){
-        startActivity(new Intent(LoginActivity.this,MainActivity.class));
+        startActivity(new Intent(LoginActivity.this,RegistrationActivity.class));
     }
 
 }
